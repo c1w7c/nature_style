@@ -1,0 +1,76 @@
+header .img1 {
+  background: url("https://picsum.photos/id/10/1920/1080");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+header .img2 {
+  background: url("https://picsum.photos/id/11/1920/1080");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+header .img3 {
+  background: url("https://picsum.photos/id/12/1920/1080");
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.darkopacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-size {
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .text-sm-white {
+    color: white;
+  }
+}
+
+@media (max-width: 576px) {
+  .maxtext-sm-center {
+    text-align: center;
+  }
+  .dis-sm-none {
+    display: none;
+  }
+  .paddingy-sm-5 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .custom-map {
+    max-width: 450px;
+    height: 450px;
+  }
+}
+
+.last-banner .image-left {
+  background: url("https://picsum.photos/id/21/1920/1080");
+  width: 100%;
+  height: 450px;
+}
+
+.last-banner .image-left a {
+  border-width: 2px;
+}
+
+.last-banner .image-right {
+  background: url("https://picsum.photos/id/18/1920/1080");
+  width: 100%;
+  height: 450px;
+}
+
+.last-banner .image-right a {
+  border-width: 2px;
+}
+/*# sourceMappingURL=images.css.map */
